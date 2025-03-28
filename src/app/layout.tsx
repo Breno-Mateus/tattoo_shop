@@ -24,6 +24,11 @@ const islandMoments = Island_Moments({
 export const metadata: Metadata = {
   title: "Tattoo Shop",
   description: "Página comercial de um tatuador.",
+  icons: {
+    icon: '/Logo.png',
+    shortcut: '/Logo.png',
+    apple: '/Logo.png'
+  }
 };
 
 export default function RootLayout({
