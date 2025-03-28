@@ -6,10 +6,14 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background-color: #191919;
+  --color-footer-background: #161616;
+  --color-text-headings: #FFFFFF;
+  --color-text-typography: #CCCCCC;
+  --color-text-muted: #636363;
+  --color-brand-color: #FFD911;
+  --font-londrina-solid: var(--font-londrina-solid);
+  --font-inter: var(--font-inter);
 }
 
 @media (prefers-color-scheme: dark) {
