@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Londrina_Solid, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
 const londrinaSolid = Londrina_Solid({
   weight: ["100", "300", "400", "900"],
@@ -27,10 +28,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className={`${londrinaSolid.variable} ${inter.variable} antialiased`}>
       <body
-        className="bg-background-color"
+        className="bg-background-color min-h-screen flex flex-col justify-between"
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
