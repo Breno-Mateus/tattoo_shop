@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <header className="font-londrina-solid text-text-headings text-3xl flex flex-col gap-5 lg:items-center justify-between mx-12 my-10 lg:mx-36 lg:my-16 lg:flex-row lg:gap-0">
+    <header className="font-londrina-solid text-text-headings text-3xl flex flex-col gap-5 lg:items-center justify-between px-12 py-10 lg:px-36 lg:py-16 lg:flex-row lg:gap-0">
       <div className="leading-none">
         <p>
           Sandro <span className="text-brand-color">Luz</span>
