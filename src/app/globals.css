@@ -14,6 +14,7 @@
   --color-brand-color: #FFD911;
   --font-londrina-solid: var(--font-londrina-solid);
   --font-inter: var(--font-inter);
+  --font-island: var(--font-island-moments);
 }
 
 @media (prefers-color-scheme: dark) {

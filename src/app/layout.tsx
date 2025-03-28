@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Londrina_Solid, Inter } from "next/font/google";
+import { Londrina_Solid, Inter, Island_Moments } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
@@ -15,6 +15,12 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const islandMoments = Island_Moments({
+  weight: ["400"],
+  variable: "--font-island-moments",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "Tattoo Shop",
   description: "Página comercial de um tatuador.",
@@ -26,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br" className={`${londrinaSolid.variable} ${inter.variable} antialiased`}>
+    <html lang="pt-br" className={`${londrinaSolid.variable} ${inter.variable} ${islandMoments.variable} antialiased`}>
       <body
         className="bg-background-color min-h-screen flex flex-col justify-between"
       >
